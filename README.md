@@ -1,6 +1,8 @@
 # Gestion_pedidos
 
-Este proyecto es una aplicación web diseñada para facilitar la gestión de pedidos en línea. Entrega notificaciones al cliente.
+Este proyecto es una aplicación web diseñada para facilitar la gestión de pedidos en línea. 
+
+Entrega notificaciones al cliente sobre los pedidos.
 
 Enviar actualizaciones en tiempo real sobre el estado del pedido, como:
 
