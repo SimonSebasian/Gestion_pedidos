@@ -1,0 +1,49 @@
+/* Hacer que el contenedor del producto ocupe más espacio */
+.producto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Aumentar espacio entre productos */
+    font-size: 1.2em; /* Incrementar el tamaño del texto */
+}
+
+/* Hacer las imágenes más grandes */
+.producto img {
+    width: 150px; /* Cambiar el tamaño a más grande */
+    height: 150px; /* Cambiar el tamaño a más grande */
+    margin-right: 20px; /* Más espacio entre la imagen y el texto */
+}
+
+/* Agregar un margen a los textos */
+.producto p {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2em; /* Incrementar tamaño del título */
+}
+.detalle-producto {
+    flex: 1; /* Permitir que el texto se extienda */
+}
+
+.btn-agregar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745; /* Verde */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.btn-agregar:hover {
+    background-color: #218838; /* Oscurecer el color al pasar el cursor */
+}
